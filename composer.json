@@ -1,5 +1,5 @@
 {
-    "name": "filu/simple-orm",
+    "name": "filu/maw_orm",
     "type": "library",
     "license": "Apache-2.0",
     "autoload": {
