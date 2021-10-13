@@ -1,5 +1,7 @@
 <?php
 
+namespace filu\maw_orm;
+
 class Singleton
 {
     /**

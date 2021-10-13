@@ -1,6 +1,8 @@
 <?php
 
-require_once "src/database/DB.php";
+namespace filu\maw_orm;
+
+use filu\maw_orm\database\DB;
 use ReflectionClass;
 use ReflectionProperty;
 

@@ -1,7 +1,9 @@
 <?php
 
+namespace filu\maw_orm\database;
+
 require_once(".env.php");
-require_once("src/Singleton.php");
+use filu\maw_orm\Singleton;
 use PDO;
 
 class DB extends Singleton
