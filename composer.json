@@ -1,17 +1,17 @@
 {
-    "name": "thynkon/simple-orm",
+    "name": "filu/simple-orm",
     "type": "library",
     "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
-            "Thynkon\\SimpleOrm\\": "src/",
-            "Thynkon\\SimpleOrm\\Test\\": "tests/"
+            "filu\\maw_orm\\": "src/",
+            "filu\\maw_orm\\Test\\": "tests/"
         }
     },
     "authors": [
         {
-            "name": "thynkon",
-            "email": "thynkon@protonmail.com"
+            "name": "filu",
+            "email": "normallegend@gmail.com"
         }
     ],
     "require": {
