@@ -41,7 +41,7 @@ class Model
         return $database->selectMany($query, [], static::class);
     }
 
-    public function create(): bool
+    public function create()
     {
         $objectProperties = get_object_vars($this);
 
@@ -71,7 +71,7 @@ class Model
             $this->$primaryKey = $lastInsertId;
         }
 
-        return true;
+        return $this->$primaryKey;
     }
 
     /**
