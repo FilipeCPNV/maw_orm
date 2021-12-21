@@ -2,7 +2,6 @@
 
 namespace filu\maw_orm\database;
 
-require_once(".env.php");
 use filu\maw_orm\Singleton;
 use PDO;
 
